@@ -91,7 +91,7 @@ classImage <- TRUE
 # Output probability image layer (enter TRUE or FALSE)
 probImage <- TRUE
 # Output classification layer and set pixels with probability less than "probThreshold" to 0 (enter TRUE or FALSE)
-threshImage <- TRUE
+threshImage <- FALSE
 # Enter threshold probability in percent (values must be between 0 and 100) only used if threshImage=TRUE
 probThreshold <- 75
 # Layer number (band number) for the X and Y axis of the feature space plot. 
